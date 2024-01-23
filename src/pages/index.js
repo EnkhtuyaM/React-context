@@ -1,8 +1,7 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import { Header, Left, Right } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Header, Left, Right } from "@/components";
+import { useState } from "react";
 
 export default function Home() {
   return (
